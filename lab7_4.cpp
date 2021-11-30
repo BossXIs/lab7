@@ -19,7 +19,7 @@ int main(){
 		{
 			cout << id[i]<< " " << name[i]<<" "<< gpa[i] <<"\n";
 		}
-	i++;
+	i++ ;
 	}	
 	return 0;
 }
