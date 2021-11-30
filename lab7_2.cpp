@@ -28,7 +28,7 @@ if(k > 0)
 	 }
 	 cout << "Result = " << result;
 	}
-else if(k==0)
+else
 	{
 		cout << "Invalid input!!!";
 	}
