@@ -6,7 +6,7 @@ int adiff(int A, int B)
   int C = A - B;
   if(C < 0)
   {
-      C= -C;
+        C= -C;
   }
   while(C>180)
   {
@@ -14,11 +14,11 @@ int adiff(int A, int B)
   }
   if(C < 0)
   {
-      C= -C;
-      if(C == 360)
-      {
-          C = 0;
-      }
+        C= -C;
+        if(C == 360)
+        {
+            C = 0;
+        }
   }
 return C;
 }
